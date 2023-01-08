@@ -1,2 +1,2 @@
 # AI
-Data Science and DNN  (Computer Vision, NLP, LSTM, ...)
+Data Science applied mainly on datasets from Kaggle. 
