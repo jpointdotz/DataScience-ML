@@ -1,4 +1,4 @@
-Repo consists of 7 notebooks:
+Repo consists of 8 notebooks:
 
 1 - EDA_ML_DNN_Alcohol_consumption.ipynb - The data is downloaded from Kaggle and as the name reads, dataset is dedicated to Alcohol consumption based on WHO report published in 2018. Basic analysis is the first to discover the basic attributes, features, type of data, .. of dataset followed by EDA with various analysis and data descriptions by means of Matplotlib artists and Seaborn. As within the data we can see Recorded and Unrecorded consumption which is based only on assumption of experts, I have tried to prepare ML linear regression and DNN regression model to predict Unrecoreded consumption based on Recorded. First simple Linear regression model is not very precise, after cleaning of outliers we can obviously obtain better precission, and even with the very simple DNN network (outliers cleaned) we can obtain MAE 0.73. Of course, several models can be used, such as decission tree, or XGBOOST as ensamble model. By easy change of output (scale instead of direct value) we can switch to classification. 
 
