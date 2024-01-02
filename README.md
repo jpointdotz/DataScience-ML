@@ -1,4 +1,4 @@
-Repo consists of 8 notebooks:
+Repo consists of these notebooks:
 
 1 - EDA_ML_DNN_Alcohol_consumption.ipynb - The data is downloaded from Kaggle and as the name reads, dataset is dedicated to Alcohol consumption based on WHO report published in 2018. Basic analysis is the first to discover the basic attributes, features, type of data, .. of dataset followed by EDA with various analysis and data descriptions by means of Matplotlib artists and Seaborn. As within the data we can see Recorded and Unrecorded consumption which is based only on assumption of experts, I have tried to prepare ML linear regression and DNN regression model to predict Unrecoreded consumption based on Recorded. First simple Linear regression model is not very precise, after cleaning of outliers we can obviously obtain better precission, and even with the very simple DNN network (outliers cleaned) we can obtain MAE 0.73. Of course, several models can be used, such as decission tree, or XGBOOST as ensamble model. By easy change of output (scale instead of direct value) we can switch to classification. 
 
@@ -18,4 +18,6 @@ Repo consists of 8 notebooks:
 
 9 - EDA_Drugs_DecisionTree_GridSCV_Pipeline.ipynb - Dataset from Kaggle, short basic analysis and EDA followed by Scikit DecissionTreeClassifier classification model using Pipeline with GridSearchCV for hyperparameters tuning. The best resutls on train set 0.5625 and on test set 0.35 only what I explain by low volume dataset consists only of 200 rows with 5 target values. 
 
-10 - One short evening spent with calculation of derivative of quadratic functions, its derivative and tangent line based on results. In two plots are depicted function itself, tangent line + line equation in defined point and derived function.
+10 - _Derivatives_QuadraticFunctionsOnly.ipynb - One short evening spent with calculation of derivative of quadratic functions, its derivative and tangent line based on results. In two plots are depicted function itself, tangent line + line equation in defined point and derived function.
+
+11 - _HypotesisTesting-T-test-P-score-ConfidenceInterval.ipynb - playing with inferential statistics and hypotesis testing, p-value and confidence interval on dataset from Kaggle. Data of salary considered as the whole population and sample size of 30 used for inference. 
