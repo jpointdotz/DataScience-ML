@@ -21,3 +21,5 @@ Repo consists of these notebooks:
 10 - _Derivatives_QuadraticFunctionsOnly.ipynb - One short evening spent with calculation of derivative of quadratic functions, its derivative and tangent line based on results. In two plots are depicted function itself, tangent line + line equation in defined point and derived function.
 
 11 - _HypotesisTesting-T-test-P-score-ConfidenceInterval.ipynb - playing with inferential statistics and hypotesis testing, p-value and confidence interval on dataset from Kaggle. Data of salary considered as the whole population and sample size of 30 used for inference. 
+
+12 - _LinearRegression_FromScratch.ipynb - linear regression from scratch with manual calculation of intercept and coeficient, in comparison to sklearn LinearRegression() methon and sns.regplot regression line. 
